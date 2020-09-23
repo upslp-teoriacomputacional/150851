@@ -2,7 +2,7 @@
 #alumno: Sergio Antonio Rodriguez Rodriguez 150851 ITI
 #teoria computacional
 #Universidad politecnica de San Luis Potosi
-#profesor: Juan Carlos Gonzales Ibarra
+#profesor: Juan Carlos Gonzalez Ibarra
 #descripcion del codigo: COMPUERTAS LOGICAS en perl
 use strict;
 
