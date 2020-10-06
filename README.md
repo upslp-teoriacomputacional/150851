@@ -1,89 +1,168 @@
-Instrucciones
-Programar en el lenguaje de programación asignado (F #, Perl, Rust)
-Los programas se encuentran en la carpeta (source_code).
-El código debe estar compilado en cualquier sistema operativo.
-El código se carga en https://github.com/upslp-teoriacomputacional/matricula
-Ejemplo. 00180864_sets. Vamos
-El programa se evaluará de acuerdo con la rúbrica adjunta.
-La evidencia del programa desarrollado es la plantilla del código fuente comentado.
-También puede mostrar el funcionamiento de los programas al inicio o término de clase antes de la fecha límite.
-Rúbrica
-Funcionalidad:
-El programa funciona correctamente y todas las variables de entrada están validadas.
+# Instructions
+1. Program in the assigned programming language (F #, Perl, Rust)
+2. The programs are located in the (source_code) folder.
+3. The code must be compiled on any operating system.
+4. The code is uploaded at https://github.com/upslp-teoriacomputacional/matricula
+5. Example. 00180864_sets. go
+6. The program will be evaluated according to the rubric attached.
+7. The evidence of the developed program is the template of the commented source code.
+8. You can also show the operation of the programs in the beginning or term of class before the deadline.
 
-Razonamiento lógico:
-Es un código compacto muy refinado.
+## Rubric
+---
+#### Functionality:
+The program works correctly and all the input variables are validated.
+#### Logic reasoning:
+It is a very refined compact code.
+#### Code structuring:
+If you use indentation, spaces and line spacing that gives greater clarity.
+#### Documentation:
+The presentation includes the name, surname, major, name of the specialty professor, name of the institution and enrollment, well-defined objectives documented and parts of the well-documented code.
+---
 
-Estructuración de código:
-Si usa sangría, espacios y espaciado entre líneas eso le da mayor claridad.
+### Help -?
+#### <li><em>Programming Languages doc comments.</em>
 
-Documentación:
-La presentación incluye el nombre, apellido, especialidad, nombre del profesor de la especialidad, nombre de la institución y matrícula, objetivos bien definidos documentados y partes del código bien documentado.
-Ayuda -?
-Comentarios de documentación sobre lenguajes de programación.
-escribir comentarios F # .
-escribir comentarios en Perl .
-escribiendo comentarios de Rust .
-Escribir código claro
-El objetivo general al escribir código es facilitar su lectura y comprensión. Los programas bien escritos son más fáciles de depurar, más fáciles de mantener y tienen menos errores. Escribir un programa es muy parecido a escribir un ensayo. Al escribir un ensayo, su mensaje es más convincente cuando va acompañado de la gramática y la puntuación adecuadas. Al escribir programas de computadora, debe seguir el mismo principio. Es incluso más importante cuando se programa, ya que se puede asignar a alguien para mantener y respaldar su código durante largos períodos de tiempo. ¡Apreciará la importancia del buen estilo cuando sea su tarea comprender y mantener el código de otra persona!
+##### <a href = "https://fsharp.org/learn/">writing F# comments</a>.
 
-Comentando
-Ejemplo
 
-/ * ------------------------------------------------ ---------
- * Aquí hay un comentario de bloque que llama la atención.
- * a sí mismo.
- * ------------------------------------------------- -------- * /
-/ * ********************************************* *****************************
- * Nombre: Alan Turing
- * NetID: aturing
- * Precepto: P00
+##### <a href = "https://perldoc.perl.org/perl.html"> writing Perl comments</a>.
+
+
+##### <a href = "https://www.rust-lang.org/learn"> writing Rust comments</a>.
+
+
+
+### Writing Clear Code
+
+The overarching goal when writing code is to make it easy to read and to understand. Well-written programs are easier to debug, easier to maintain, and have 
+fewer errors. Writing a program is a lot like writing an essay. When writing an essay, your message is more convincing when it is accompanied by proper grammar and punctuation. When writing computer programs, you should follow the same principle. It is even more important when programming since someone may be assigned to maintain and support your code for long periods of time. You will appreciate the importance of good style when it is your task to understand and maintain someone else's code!
+
+#### Commenting
+
+Example
+<table>
+<TR><TD><pre>
+/*---------------------------------------------------------
+ *  Here is a block comment that draws attention
+ *  to itself.
+ *---------------------------------------------------------*/
+</pre></td></tr>
+</table>
+
+<table>
+<TR><TD><pre>
+/* *****************************************************************************
+ *  Name:    Alan Turing
+ *  NetID:   aturing
+ *  Precept: P00
  *
- * Descripción: Imprime 'Hello, World' en la ventana de terminal.
- * Por tradición, este es el primer programa de todos.
- * El profesor Brian Kernighan inició esta tradición en 1974.
+ *  Description:  Prints 'Hello, World' to the terminal window.
+ *                By tradition, this is everyone's first program.
+ *                Prof. Brian Kernighan initiated this tradition in 1974.
  *
- * Escrito: 5/03/1997
- * Última actualización: 22/8/2018
+ *  Written:       5/03/1997
+ *  Last updated:  8/22/2018
  *
- *% python 3 HelloWorld.python
- *% pyton HelloWorld
- * Hola Mundo
+ *  % python 3 HelloWorld.python
+ *  % pyton HelloWorld
+ *  Hello, World
  *
- ************************************************ ************************** * /
-Comente cada nombre de variable importante (incluidas todas las variables de instancia).
-doble rx privado, ry; // posición
-privado doble q; // cargar
-Si lo prefiere, puede utilizar los comentarios de documentos .
+ **************************************************************************** */
+</pre></td></tr>
+</table>
 
-public static void main (String [] args) { 
-   anidamiento booleano = verdadero;
-   / * / * * / anidamiento = falso; // * /
-   System.out.println (anidamiento);
+
+<p><li> Comment every important variable name (including 
+all instance variables).
+
+
+<table>
+<TR><TD><pre>
+private double rx, ry;    //  position
+private double q;         //  charge
+</pre></td></tr>
+</table>
+
+If you prefer, you may use
+<a href = "https://en.wikipedia.org/wiki/Structured_programming">doc comments</a>.
+
+
+<table>
+<TR><TD><pre>
+public static void main(String[] args) { 
+   boolean nesting = true;
+   /* /* */ nesting = false; // */ 
+   System.out.println(nesting);
 } 
-a * x + b
-para (int i = 0; i <n; i ++) frente a para (int i = 0; i <n; i ++)
-    // Este comentario no tiene espacio // Este comentario tiene dos 
-    // después del delimitador y es // espacios después del delimitador
-    //dificultad para leer. // y es más fácil de leer.
-int n = Integer.parseInt (args [0]); // tamaño de la población
-int ensayos = Integer.parseInt (args [1]); // número de intentos
-// Sangría de estilo K&R                   
-public static void main (String [] args) {
-    System.out.println ("Hola, mundo");
+</pre></td></tr>
+</table>
+
+
+<table>
+<TR><TD><pre>
+a*x + b
+</pre></td></tr>
+</table>
+
+
+<table>
+<TR><TD><pre>
+for(int i=0;i&lt;n;i++)    vs.      for (int i = 0; i < n; i++)
+</pre></td></tr>
+</table>
+
+
+<table>
+<TR><TD><pre>
+    //This comment has no space           //  This comment has two 
+    //after the delimiter and is          //  spaces after the delimiter
+    //difficult to read.                  //  and is easier to read.
+</pre></td></tr>
+</table>
+
+
+<table>
+<TR><TD><pre>
+int n      = Integer.parseInt(args[0]);      //  size of population
+int trials = Integer.parseInt(args[1]);      //  number of trials
+</pre></td></tr>
+</table>
+
+
+<table>
+<TR><TD><pre>
+//  K&R style indenting                   
+public static void  main(String[] args) {
+    System.out.println("Hello, World");
 }
-// Sangría de estilo BSD-Allman
-public static void main (String [] args)
+
+//  BSD-Allman style indenting
+public static void main(String[] args)
 {
-System.out.println ("Hola, mundo");
+    System.out.println("Hello, World");
 }
+</pre></td></tr>
+</table>
 
-Referencias
-R. La práctica de la programación de Brian W. Kernighan y Rob Pike es un clásico.
 
-A. Estilo de verificación . Si siguió nuestras instrucciones de Windows, Mac OS X o Linux, IntelliJ está configurado para ejecutar Checkstyle automáticamente mientras está editando.
+#### References
+<p><b>A.</b> <a href = "http://www.cs.princeton.edu/~bwk/tpop.webpage">The Practice
+of Programming</a> by Brian W. Kernighan and Rob Pike is a classic.
 
-A. código inmantenible y aquí hay otro .
 
-No tenga miedo de la recolección de correo electrónico, escriba su correo electrónico correctamente y la página realizará la ofuscación de programación.
-@
+<p><b>A.</b><a href = "http://checkstyle.sourceforge.net/">Checkstyle</a>.
+If you followed our Windows, Mac OS X, or Linux instructions, <em>IntelliJ</em> is configured
+to run Checkstyle automatically while you are editing.
+
+
+<p><b>A.</b><a href = "http://mindprod.com/jgloss/unmain.html">unmaintainable code</a>
+and here's <a href = "http://archive.is/Pn5hH">another</a>.
+
+
+<p></p>
+Don't be afraid of email harvesting, write your email properly and the page will perform programming obfuscation.
+
+<a href="" target="\_blank">@</a> 
+</small>
+</body>
