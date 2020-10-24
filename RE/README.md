@@ -13,5 +13,5 @@ cualquier token que sea parte del lenguaje.
 
 problemas al programar:
 
-durante la codificacion de python a perl tube un problema, nom me compilaba, despues de mucho investigar
-me dicuenta que ho estaba aplicando substr() para las cadenas. despues de acolarlo bien ya me corrio el programa.
+durante la codificacion de python a perl tube un problema, no me corria el programa, despues de mucho investigar
+me di cuenta que no estaba aplicando substr() para las cadenas. despues de acoplarlo bien ya me corrio el programa.
