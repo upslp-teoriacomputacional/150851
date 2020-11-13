@@ -2,7 +2,7 @@
 #teoria computacional
 #Universidad politecnica de San Luis Potosi
 #profesor: Juan Carlos Gonzales Ibarra
-#descripcion del codigo: palindromo con arrays.
+#descripcion del codigo: PDA
 
 
 OBJETIVOS
